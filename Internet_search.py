@@ -3,18 +3,17 @@ import httpx
 from mcp.server.fastmcp import FastMCP
 import requests
 import json
+import os
 
-# 读取密钥文件
-#为了防止密钥泄露直接将密钥放到SEARCH_API_KEY.txt文件中
-with open('SEARCH_API_KEY.txt', 'r', encoding='utf-8') as file:
-    SEARCH_API_KEY = file.read()
+# 读取密钥配置
+SEARCH_API_KEY = os.getenv('BOCHAAI_API_KEY')
 """
 api密钥在以下网站获取
 https://bochaai.com/
 """
 
 # Initialize FastMCP server
-mcp = FastMCP("weather")
+mcp = FastMCP("Internet-search")
 
 @mcp.tool()
 def InternetSearch(query,txt_count=5):
