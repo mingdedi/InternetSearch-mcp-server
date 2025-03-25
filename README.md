@@ -1,7 +1,7 @@
 # Internetsearch-mcp-server
 一个用于联网搜索的MCP服务器
 基于博查搜索API的MCP服务器  
-需要使用博查AI的搜索服务密钥，具体文档请查阅[博查开发文档].(https://bocha-ai.feishu.cn/wiki/HmtOw1z6vik14Fkdu5uc9VaInBb).
+需要使用博查AI的搜索服务密钥，具体文档请查阅[博查开发文档](https://bocha-ai.feishu.cn/wiki/HmtOw1z6vik14Fkdu5uc9VaInBb).
 
 **如何使用**  
 1、将仓库git clone
@@ -38,7 +38,7 @@ uv sync
 
 **注意**  
 这里的BOCHAAI_API_KEY中的密钥仅仅是一个示例。  
-如果想要获取一个实际可用的密钥请访问https://bochaai.com/
+如果想要获取一个实际可用的密钥请访问[博查AI](https://bochaai.com/)
 
 An MCP Server for Internet Search  
 Based on the Bocha Search API  
@@ -80,4 +80,4 @@ Add the following configuration in a similar format:
 
 **Note**  
 The key in the BOCHAAI_API_KEY is merely an example.   
-If you need an actual usable key, please visit https://bochaai.com/.
+If you need an actual usable key, please visit [BoCha AI](https://bochaai.com/)
