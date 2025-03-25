@@ -31,7 +31,7 @@ uv sync
 }
 ```
 
-注意  
+**注意**  
 这里的SEARCH_API_KEY.txt中的密钥仅仅是一个示例。  
 如果想要获取一个实际可用的密钥请访问https://bochaai.com/
 
