@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# api key
+SEARCH_API_KEY.txt
