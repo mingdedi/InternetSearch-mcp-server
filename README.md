@@ -13,6 +13,7 @@ git clone https://github.com/mingdedi/Internetsearch-mcp-server.git
 ```
 2、使用uv重建环境
 ```bash
+cd Internetsearch-mcp-server
 pip install uv
 uv venv
 ./.venv/Scripts/activate.bat
